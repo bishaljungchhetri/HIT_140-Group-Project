@@ -7,8 +7,8 @@ import statsmodels.formula.api as smf
 from scipy import stats
 from zipfile import ZipFile, ZIP_DEFLATED
 
-DATA1 = Path("/mnt/data/dataset1 (1).csv")
-DATA2 = Path("/mnt/data/dataset2 (1).csv")
+DATA1 = Path("/mnt/data/dataset1.csv")
+DATA2 = Path("/mnt/data/dataset2.csv")
 OUTDIR = Path("/mnt/data/hit140_outputs"); OUTDIR.mkdir(exist_ok=True)
 
 d1 = pd.read_csv(DATA1)
