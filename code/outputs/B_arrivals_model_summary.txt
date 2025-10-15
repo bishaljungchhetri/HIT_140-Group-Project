@@ -1,0 +1,19 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:     rat_arrival_number   No. Observations:                 1967
+Model:                            GLM   Df Residuals:                     1963
+Model Family:        NegativeBinomial   Df Model:                            3
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -1755.7
+Date:                Sat, 11 Oct 2025   Deviance:                       1723.7
+Time:                        00:18:41   Pearson chi2:                 3.96e+03
+No. Iterations:                    21   Pseudo R-squ. (CS):            0.05836
+Covariance Type:            nonrobust                                         
+============================================================================================
+                               coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+Intercept                   -0.8281      0.073    -11.331      0.000      -0.971      -0.685
+C(season_name)[T.summer]    -0.8194      0.094     -8.731      0.000      -1.003      -0.635
+C(season_name)[T.winter]   -22.0203   1.31e+04     -0.002      0.999   -2.56e+04    2.56e+04
+hours_after_sunset           0.0557      0.010      5.604      0.000       0.036       0.075
+============================================================================================
